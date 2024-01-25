@@ -94,6 +94,6 @@ Para ejecutar la aplicación, utiliza el siguiente comando en la terminal:
 streamlit run nombre_del_script.py
 ```
 
-¡Disfruta de la predicción del costo de viaje en taxi en NYC!
-[Link para usar modelo online](https://ml-deploy-9c4d57010124.herokuapp.com/)
-[Notebook](ml_consumible.ipynb)
+¡Disfruta de la predicción del costo de viaje en taxi en NYC! <br>
+[Link para usar modelo online](https://ml-deploy-9c4d57010124.herokuapp.com/) <br>
+[Notebook](ml_consumible.ipynb) <br>
