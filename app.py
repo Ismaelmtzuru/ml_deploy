@@ -22,7 +22,7 @@ def run():
     )
 
     st.sidebar.info('Esta app es creada para predecir el costo de viaje de taxis en NYC')
-    st.sidebar.success('https://www.pycaret.org')
+    st.sidebar.success('https://github.com/Ismaelmtzuru/ml_deploy')
 
     st.sidebar.image(image_hospital)
 
@@ -42,6 +42,7 @@ def run():
 
         if st.button('Predict'):
             output = predict(model=modelo,df_input=df_input)
+            output = round(output,2)
             output = '$' + str(output)
 
             st.success('Costo aproximado de viaje(USDollar): {}'.format(output))

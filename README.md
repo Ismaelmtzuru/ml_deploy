@@ -95,4 +95,5 @@ streamlit run nombre_del_script.py
 ```
 
 ¡Disfruta de la predicción del costo de viaje en taxi en NYC!
-[Notebook](ml_consuible.ipynb)
+[Link para usar modelo online](https://ml-deploy-9c4d57010124.herokuapp.com/)
+[Notebook](ml_consumible.ipynb)
