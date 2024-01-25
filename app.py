@@ -15,7 +15,7 @@ def predict(model,df_input):
     return predicciones 
 
 def run():
-    image_hospital = Image.open('img\\Hospital1.jpg')
+    image_hospital = Image.open('img/Hospital1.jpg')
 
     add_selectbox= st.sidebar.selectbox(
         'Como te gustaría predecir', ('Online','Batch')
